@@ -1,0 +1,26 @@
+
+    body{
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+table.matrix{
+  margin:auto;
+  border-collapse:collapse;
+}
+
+table.matrix td{
+  width:60px;           /* fix négyzet */
+  height:60px;
+  border:1px solid #cfcfcf;  /* ettől látszik az üres cella is */
+  text-align:center;
+  vertical-align:middle;
+}
+
+input{
+  width:4ch;
+  padding:6px;
+  text-align:center;
+  box-sizing:border-box;
+}
+button{ margin-top:20px; }
